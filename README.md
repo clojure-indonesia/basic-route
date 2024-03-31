@@ -7,7 +7,7 @@ $ clojure -M:run
 [main] INFO org.eclipse.jetty.server.Server - Started Server@2979c6ef{STARTING}[11.0.20,sto=0] @8608ms
 ```
 ### PLAY
-```bash
+```
 $ curl http://localhost:3000
 <h1>Hello, world!</h1>
 $ curl -d "name=John" http://localhost:3000
